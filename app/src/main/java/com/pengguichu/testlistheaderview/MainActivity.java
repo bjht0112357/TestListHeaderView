@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = pullToRefreshListView.getRefreshableView();
         listView.addHeaderView(headerview1);
         listView.addHeaderView(headerview2);
+        int i=0;
         pullToRefreshListView.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {
